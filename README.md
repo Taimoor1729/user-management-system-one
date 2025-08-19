@@ -1,0 +1,5 @@
+This project is a full-stack Role-Based Access Control (RBAC) application built with Node.js, Express, MongoDB, and React (with Tailwind CSS). It provides a secure authentication and authorization system where users can log in, be assigned roles, and have specific permissions.
+
+To get started with this project, first clone the repository and install the dependencies for both the backend and frontend. The backend is built with Node.js, Express, and MongoDB, so you’ll need to create a .env file inside the backend folder with your MongoDB connection string, a JWT secret, and the port (default is 4000). Once that’s done, you can start the backend server with npm run dev, and it will be available at http://localhost:4000.
+
+The frontend is built with React, and Tailwind CSS. Inside the frontend folder, install the dependencies and create a .env file pointing API_URL to your backend (e.g., http://localhost:4000). Run the frontend using npm run dev, and it will be available at http://localhost:3000
